@@ -54,7 +54,6 @@ public class Quiz extends javax.swing.JFrame {
         jLabel3.setVisible(false);
     }
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         buttonGroup1 = new javax.swing.ButtonGroup();
@@ -177,13 +176,13 @@ public class Quiz extends javax.swing.JFrame {
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         int a=JOptionPane.showConfirmDialog(null,"Do you really want to close the quiz?","Select",JOptionPane.YES_NO_OPTION);
         if(a==0)
             System.exit(0);
-    }//GEN-LAST:event_jButton1ActionPerformed
+    }
 int score=0;
 int QuestionPointer=1;
 int OptionPointer=0;
@@ -279,7 +278,7 @@ private void advanceToNextQuestion()
         // If no answer is selected, display a message
         JOptionPane.showMessageDialog(this, "Please select an answer before proceeding to the next question.");
     }   
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
       public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -299,7 +298,6 @@ private void advanceToNextQuestion()
     return null;
 }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
