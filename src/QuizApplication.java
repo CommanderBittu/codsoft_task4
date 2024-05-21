@@ -309,5 +309,4 @@ private void advanceToNextQuestion()
     private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JRadioButton jRadioButton3;
     private javax.swing.JRadioButton jRadioButton4;
-    // End of variables declaration//GEN-END:variables
 }
